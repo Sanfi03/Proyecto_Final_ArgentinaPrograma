@@ -1,0 +1,132 @@
+/* Estilos generales */
+body {
+  font-family: 'Aboreto', cursive;
+ 
+}
+  
+  /* Estilos de la cabecera */
+  .header {
+    background-color: rgb(255,153,0);
+    padding: 20px;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .navbar__link {
+    color: #fff;
+    text-decoration: blanchedalmond;
+    font-size: x-large , bold;
+  }
+  
+  /* Estilos de la sección "Acerca de mí" */
+  .about {
+    text-align: center;
+    background-color: #f1c40f;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+  }
+  
+  .about__title {
+    font-size: 48px;
+    margin-bottom: 10px;
+  }
+  
+  .about__description {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+  /* Estilos de la sección "Experiencia Laboral" y "Formacion Profesional y Habilidades"*/
+  .work {
+    background-color: rgba(129, 159, 181, 0.96);
+    padding: 30px;
+  }
+  
+  .work__title {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 10px;
+    
+  }
+  
+  .work__item {
+    margin-bottom: 20px;
+    font:bold;
+    
+  }
+  
+  .work__item-title {
+    font-size: 23px;
+    margin-bottom: 10px;
+    color:#0988b6
+    }
+  
+  .work__item-description {
+    font-size: 18px;
+    font-weight: 800;
+  }
+  
+  .work__item-link {
+    color: #f3f6f3;
+    text-decoration:solid;
+    font:bolder;
+  }
+  
+  /* Estilos de la sección "Contacto" */
+  .contact {
+    padding: 20px;
+  }
+  
+  .contact__title {
+    font-size: 35px;
+    margin-bottom: 10px;
+  }
+  
+  .contact__form {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .contact__label {
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 17px;
+    border: 2px double #5e5ad4;
+  }
+  
+  .contact__input {
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  .contact__submit {
+    background-color: rgba(129, 159, 181, 0.96);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  /* Estilos del pie de página */
+  .footer {
+    background-color: #34495e;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer__copyright {
+    font-size: 14px, bold;
+  }
+  img{
+     border-radius: 40px 40px 40px 33px;
+  
+  }
+
+ 
